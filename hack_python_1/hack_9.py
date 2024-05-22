@@ -7,7 +7,7 @@ def fn_hack_9():
     output = []
     for i in range(len(result)):
         output.append(result[i])
-        if i < len(result) - 1:
+        if i < len(result) + 1:
             output.append('@')
     return output 
 
